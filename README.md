@@ -13,7 +13,7 @@ READ ME:
     admin/  --> administrador
     about/  --> about o sobre mi
 
-    READ
+- READ
     url para ver los modelos creados:
     carrera/ --> ver las carreras
     gear/  --> ver el equipamento
@@ -22,16 +22,16 @@ READ ME:
     buscarCarreraCiudad/ --> buscar carrera
     resultadosCarrera/  --> ver el resultado de la busqueda
 
-    CREATE
+- CREATE
     url para crear nuevos datos
     nueva_carrera/  --> agregar una nueva carrera
     nuevo_gear/  --> agregar equipamento
    
-   UPDATE
+- UPDATE
     url para actualizar carrera
     actualizarCarrera/
 
-  DELETE
+- DELETE
    url para borrar carrera
     eliminarCarrera/
     
