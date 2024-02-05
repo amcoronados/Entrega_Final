@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends "padre.html" %}
+    {% block titulo %} Acá puedes ver los gear {% endblock %}
+
+    {% block contenido1 %}
+    {% for x in gears %}
+        <p>{{x.modelo_gear}}</p>
+    {% endfor %}
+
+    {% endblock %}
+<br>
+
+{% block contenido2 %}
+<a class="btn btn-primary" href="{% url 'nuevo gear' %}">Agregar gear</a>
+{% endblock %}
+
+

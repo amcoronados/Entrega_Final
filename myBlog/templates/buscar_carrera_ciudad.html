@@ -1,0 +1,16 @@
+{% extends "padre.html" %}
+{% block titulo %}
+
+    <h1>Aca buscamos series por ciudad</h1>
+    <form action="/resultadosCarrera/" method="GET">
+        Ingresa la ciudad: <input type="text" name="ciudad">
+        <input type="submit">
+    </form>
+    {% for x in carreras %}
+    <p>{{x.nombre_carrera}}</p>
+    {% endfor %}
+
+</form>
+{% endblock %}
+
+

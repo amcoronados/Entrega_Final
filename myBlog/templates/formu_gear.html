@@ -1,0 +1,12 @@
+{% extends "padre.html" %}
+{% block titulo %} 
+
+<h1>Aca creamos un gear nuevo</h1>
+
+<form action="" method="post">{% csrf_token %}
+
+    {{mi_formu_gear}}
+
+    <input type="submit">
+</form>
+{% endblock %}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends "padre.html" %}
+    {% block titulo %} Acá puedes ver las carreras {% endblock %}
+  
+{% block contenido1 %}
+{% for x in carreras %}
+<p>{{x.nombre_carrera}}</p>
+{% endfor %}   
+
+
+{% endblock %}
+<br>
+
+{% block contenido2 %}
+<a class="btn btn-primary" href="{% url 'nueva carrera' %}">Agregar carrera</a>
+{% endblock %}
+
+
+
+
+

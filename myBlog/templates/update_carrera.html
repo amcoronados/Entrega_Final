@@ -1,0 +1,13 @@
+{% extends "padre.html" %}
+{% block titulo %} 
+
+<h1>Aca actualizamos una carrera </h1>
+
+<form action="" method="POST"> {% csrf_token %}
+
+    {{mi_formu_carrera}}
+    
+   <input type="submit">
+</form>
+
+{% endblock %}

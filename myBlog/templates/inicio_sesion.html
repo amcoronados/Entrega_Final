@@ -1,0 +1,13 @@
+
+{% extends "padre.html" %}
+ 
+{% block contenido1 %}
+<h1>Aca puedes iniciar sesion</h1>
+{% endblock %}
+
+{% block contenido2 %}
+<form action="" method="POST"> {% csrf_token %}
+{{formu}}
+
+<input type="submit" value="Iniciar sesion">
+{% endblock %}

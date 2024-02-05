@@ -1,0 +1,14 @@
+
+{% extends "padre.html" %}
+{% block contenido1 %}
+<h1>Aca puedes crear un nuevo usuario</h1>
+{% endblock %}
+  
+
+
+{% block contenido2 %}
+<form action="" method="POST"> {% csrf_token %}
+{{formu}}
+
+<input type="submit" value="Registrarse">
+{% endblock %}
